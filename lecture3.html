@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- This page is displayed to user during starting of the website. It provides information about the purpose of the website. -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 3</title>
+  <style>
+    .topicDetailsTable {
+      border-collapse: collapse;
+      border: 1px solid;
+      width: 80%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 10px;
+    }
+
+    .topicDetailsTable td {
+      border-collapse: collapse;
+      border: 1px solid;
+      width: 50%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body style="margin: 0">
+  <nav class="headerNav" style="position: fixed; top: 0; left: 0; width: 300px; height: 100%; background: black;">
+    <ul>
+      <li style="display: inline; color: white;">
+        <img src="./images/logo_VIT_2.png" style="height: 45px;"></img>
+        <img src="./images/victorian1.png" style="height: 45px;"></img>
+      </li>
+      <br><br><br><br>
+      <li style="color: white;">
+        <a href="./index.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Home </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture1.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 1 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture2.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 2 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture3.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 3 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture4.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 4 </a>
+      </li>
+    </ul>
+  </nav>
+
+  <article class="pageContent" style="margin-left: 300px; padding: 10px;">
+
+    <header>
+      <h1 style="text-align: center;">Welcome to developing windows application lecture summary <br> ITAP3012</h1>
+      <br>
+      <p style="text-align: center;">In lecture 3, we learned about CSS, its location, sytax and selectors. Later, we explored CSS properties, <br> 
+        values and colors. It was followed by introduction to Box model and CSS frameworks.</p>
+    </header>
+
+    <hr>
+
+    <section class="topicDetails">
+      <p id="topicDetailsMessage" style=" text-align: center; padding: 30px; font-size: 20px;"><b>Topic details are as follows : </b></p>
+      <table class="topicDetailsTable" align="center">
+        <tr>
+          <td>CSS definition</td>
+          <td><p>CSS stands for Cascading Style Sheets, which is a W3C standard
+            for describing the appearance of HTML elements. With CSS, we can assign font properties, <br> colors, sizes, borders,
+            background images, positioning and even animate elements on
+            the page.</p></td>
+        </tr>
+        <tr>
+          <td>CSS Location</td>
+          <td><p>There are three ways to add style to your HTML document. <br> Inline CSS <br> Internal CSS <br> External CSS</p></td>
+        </tr>
+        <tr>
+          <td>CSS Syntax</td>
+          <td><p>A rule consists of three things. <br> Selector <br> Property <br> Value </p></td>
+        </tr>
+        <tr>
+          <td>Selectors</td>
+          <td><p>Selectors tell the browser which elements will be affected by the 
+            property values. Selectors allow you to select individual or multiple HTML 
+            elements.</p></td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br>
+
+    <hr>
+
+    <br><br>
+
+    <section class="imageContainer" style="align-content: center;">
+      <img src="./images/kathmandu_session.jpg" alt="VIT agent information session in Kathmandu" title="VIT agent information session" style="display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;">
+      <br>
+      <figcaption style="text-align: center;">Victorian Institute of Technology organized VIT agent information session in Kathmandu. (<a href="https://www.google.com/search?q=vit+sydney+faculty+kathmandu+visit&tbm=isch&ved=2ahUKEwit9radzL_6AhUT1HMBHbpxC8oQ2-cCegQIABAA&oq=vit+sydney+faculty+kathmandu+visit&gs_lcp=CgNpbWcQAzoECCMQJ1CpBljCJWC7J2gEcAB4AIAB-AGIAdEPkgEGMC4xMC4ymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=M344Y-2QIJOoz7sPuuOt0Aw&bih=657&biw=1366#imgrc=WGHWPlH2JVf7_M">image source</a>)</figcaption>
+    </section>
+
+  </article>
+
+  <br><br>
+
+  <footer class="footerSection" style="margin-left: 290px; background-color: #c29b26; padding: 0px 0px 0px 0px; overflow: hidden;">
+    <section>
+      <img id="footerLogo" src="./images/logo_VIT_2.png" style="height: 50px;
+      padding: 10px 0px 10px 20px;"></img>
+      <img id="footerUniversityName" src="./images/victorian_f.png" style=" height: 60px;
+      padding: 5px 0px 0px 5px;"></img>
+    </section>
+    <br>
+    <nav class="footerNav" style="align-items: center;  padding: 0px 0px 0px 0px; bottom: 0px;">
+      <ul style="padding: 0px 0px 5px 10px;">
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.facebook.com/VITAustralia">
+            <img class="logoLinkImage" src="./images/facebook_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;" onMouseOver="this.style.opacity='0.4'"
+            onMouseOut="this.style.opacity='1'"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://twitter.com/vitaustralia" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/twitterLogo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.linkedin.com/school/vitaustralia/" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/linkedin_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.youtube.com/channel/UCPuQJ0kLnbeSudEfocICv8w?view_as=subscriber" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/youtube_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

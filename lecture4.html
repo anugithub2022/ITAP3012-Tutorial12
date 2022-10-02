@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- This page is displayed to user during starting of the website. It provides information about the purpose of the website. -->
+
+<head>
+  <meta charset="utf-8">
+  <title>Lecture 4</title>
+  <style>
+    .topicDetailsTable {
+      border-collapse: collapse;
+      border: 1px solid;
+      width: 80%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 10px;
+    }
+
+    .topicDetailsTable td {
+      border-collapse: collapse;
+      border: 1px solid;
+      width: 50%;
+      padding-top: 10px;
+      padding-left: 5px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body style="margin: 0">
+  <nav class="headerNav" style="position: fixed; top: 0; left: 0; width: 300px; height: 100%; background: black;">
+    <ul>
+      <li style="display: inline; color: white;">
+        <img src="./images/logo_VIT_2.png" style="height: 45px;"></img>
+        <img src="./images/victorian1.png" style="height: 45px;"></img>
+      </li>
+      <br><br><br><br>
+      <li style="color: white;">
+        <a href="./index.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Home </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture1.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 1 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture2.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 2 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture3.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 3 </a>
+      </li>
+      <br>
+      <li style="color: white;">
+        <a href="./lecture4.html" style="color: white; text-decoration: none;" onMouseOver="this.style.color='#c29b26'"
+        onMouseOut="this.style.color='white'"> Lecture 4 </a>
+      </li>
+    </ul>
+  </nav>
+
+  <article class="pageContent" style="margin-left: 300px; padding: 10px;">
+
+    <header>
+      <h1 style="text-align: center;">Welcome to developing windows application lecture summary <br> ITAP3012</h1>
+      <br>
+      <p style="text-align: center;">In lecture 4, we discussed about the Client-Side Scripting, basics of javascript programming, Document Object Model and Events.</p>
+    </header>
+
+    <hr>
+
+    <section class="topicDetails">
+      <p id="topicDetailsMessage" style=" text-align: center; padding: 30px; font-size: 20px;"><b>Topic details are as follows : </b></p>
+      <table class="topicDetailsTable" align="center">
+        <tr>
+          <td>Introduction to JavaScript</td>
+          <td><p>JavaScript is an object-oriented, dynamically typed scripting 
+            language. It can be used to programmatically access and dynamically 
+            manipulate any aspect of the HTML documents.</p></td>
+        </tr>
+        <tr>
+          <td>Client-Side Scripting</td>
+          <td><p>It refers to the client machine (i.e., the browser) 
+            running code locally rather than relying on the server to execute code 
+            and return the result. <br> A client machine downloads and executes JavaScript code.</p></td>
+        </tr>
+        <tr>
+          <td>Programming basics of javascript</td>
+          <td><p>Briefing about arrays, loops, variables, objects, callback functions etc.</p></td>
+        </tr>
+        <tr>
+          <td>The Document Object Model(DOM)</td>
+          <td><p>When the web page is loaded, the browser creates a Document 
+            Object Model. The DOM document object is the root JavaScript object 
+            representing the entire HTML document.</p></td>
+        </tr>
+        <tr>
+          <td>Events and its types</td>
+          <td><p>JavaScript event is an action that can be detected by JavaScript. Discussion on different event types - <br> 
+            Mouse, keyboard and form events.</p></td>
+        </tr>
+      </table>
+    </section>
+
+    <br><br>
+
+    <hr>
+
+    <br><br>
+
+    <section class="imageContainer" style="align-content: center;">
+      <img src="./images/classroom.jpg" alt="View during one lecture class at VIT" title="lecture class" style="display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;">
+      <br>
+      <figcaption style="text-align: center;">Pic taken during one lecture class at VIT (<a href="https://www.google.com/search?q=vit+sydney+classroom&tbm=isch&ved=2ahUKEwiikv-rzL_6AhUHM7cAHfZsCbEQ2-cCegQIABAA&oq=vit+sydney+classroom&gs_lcp=CgNpbWcQAzoECCMQJzoECAAQHjoECAAQGFClCViuJWDNJ2gAcAB4AIABogGIAZMNkgEEMC4xMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=Un44Y6KhBIfm3LUP9tmliAs&bih=657&biw=1366#imgrc=_-DEOzymCm4MEM">image source</a>)</figcaption>
+    </section>
+
+  </article>
+
+  <br><br>
+
+  <footer class="footerSection" style="margin-left: 290px; background-color: #c29b26; padding: 0px 0px 0px 0px; overflow: hidden;">
+    <section>
+      <img id="footerLogo" src="./images/logo_VIT_2.png" style="height: 50px;
+      padding: 10px 0px 10px 20px;"></img>
+      <img id="footerUniversityName" src="./images/victorian_f.png" style=" height: 60px;
+      padding: 5px 0px 0px 5px;"></img>
+    </section>
+    <br>
+    <nav class="footerNav" style="align-items: center;  padding: 0px 0px 0px 0px; bottom: 0px;">
+      <ul style="padding: 0px 0px 5px 10px;">
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.facebook.com/VITAustralia">
+            <img class="logoLinkImage" src="./images/facebook_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;" onMouseOver="this.style.opacity='0.4'"
+            onMouseOut="this.style.opacity='1'"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://twitter.com/vitaustralia" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/twitterLogo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.linkedin.com/school/vitaustralia/" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/linkedin_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+        <li style="list-style: none;
+        margin: 10px; display: inline-block;">
+          <a target="_blank" href="https://www.youtube.com/channel/UCPuQJ0kLnbeSudEfocICv8w?view_as=subscriber" onMouseOver="this.style.opacity='0.4'"
+          onMouseOut="this.style.opacity='1'">
+            <img class="logoLinkImage" src="./images/youtube_logo.png" style="width: 25px; height: 25px; padding: 5px 0px 0px 0px;"></img>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>
